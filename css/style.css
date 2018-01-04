@@ -12,13 +12,11 @@ html {
 
 body {
   font-family: 'Open Sans', Arial;
-  font-weight: normal;
   color: #A39D9D;
 }
 
 .container {
   max-width: 900px;
-  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -30,7 +28,6 @@ body {
 }
 
 span {
-  display: block;
   font-size: 1.6rem;
   font-weight: bold;
 }
@@ -44,10 +41,6 @@ h1 {
   font-size: 1.8rem;
 }
 
-nav {
-  margin: 0 auto;
-}
-
 .navigation {
   margin: 0 auto;
   border-bottom: solid 1px #2CBCD6;
@@ -55,6 +48,7 @@ nav {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 a {
@@ -72,7 +66,6 @@ a {
 
 .container > ul > li {
   display: inline-block;
-  vertical-align: middle;
 }
 
 .navigation-second {
@@ -90,7 +83,6 @@ h3 {
 .list {
   display: inline-block;
   padding: 20px 40px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -115,7 +107,6 @@ h3 {
 
 .navigation > li:hover .navigation-second {
   display: block;
-  transition: background-color 1s ease;
 }
 
 footer {
