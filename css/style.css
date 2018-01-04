@@ -13,6 +13,7 @@ html {
 body {
   font-family: 'Open Sans', Arial;
   font-weight: normal;
+  color: #A39D9D;
 }
 
 .container {
@@ -51,13 +52,17 @@ ul {
   list-style: none;
 }
 
-.container > ul > li > a {
-  display: inline-block;
+a {
   text-decoration: none;
+  display: inline-block;
+}
+
+.container > ul > li > a {
   color: #2CBCD6;
-  padding: 1.5em 3.5em;
   font-weight: bold;
+  padding: 1.5em 3.5em;
   font-stretch: expanded;
+  transition: 0.2s ease;
 }
 
 .container > ul > li {
@@ -74,23 +79,27 @@ ul {
 
 h3 {
   color: #AFDEFA;
+  font-size: 1.5rem;
 }
 
 .list {
   display: inline-block;
   padding: 20px 40px;
-  margin: 0 0;
+  margin: 0 auto;
   text-align: center;
 }
 
-.list li {
-  text-align: center;
+.list ul {
+  padding: 0 0;
 }
 
 .list a {
-  display: inline-block;
-  text-decoration: none;
   color: white;
   font-weight: normal;
   padding: 0.5em 2em;
+}
+
+.container > ul > li > a:hover {
+  background-color: #2CBCD6;
+  color: white;
 }
