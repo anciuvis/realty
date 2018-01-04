@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: Arial;
+  font-weight: normal;
+}
