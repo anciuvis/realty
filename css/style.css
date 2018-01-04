@@ -1,3 +1,6 @@
+/*font import*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 * {
   box-sizing: border-box;
   outline: none;
@@ -8,6 +11,86 @@ html {
 }
 
 body {
-  font-family: Arial;
+  font-family: 'Open Sans', Arial;
   font-weight: normal;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo, .h1-wrap {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+span {
+  display: block;
+  font-size: 2rem;
+}
+
+header {
+  text-align: left;
+  font-style: italic;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+.navigation {
+  margin: 0 auto;
+  border-bottom: solid 1px #2CBCD6;
+}
+
+ul {
+  list-style: none;
+}
+
+.container > ul > li > a {
+  display: inline-block;
+  text-decoration: none;
+  color: #2CBCD6;
+  padding: 1.5em 3.5em;
+  font-weight: bold;
+  font-stretch: expanded;
+}
+
+.container > ul > li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navigation-second {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-color: #2CBCD6;
+}
+
+h3 {
+  color: #AFDEFA;
+}
+
+.list {
+  display: inline-block;
+  padding: 20px 40px;
+  margin: 0 0;
+  text-align: center;
+}
+
+.list li {
+  text-align: center;
+}
+
+.list a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  padding: 0.5em 2em;
 }
